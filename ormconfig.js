@@ -16,7 +16,7 @@ module.exports = {
 
   entities: ['dist/infrastructure/database/mapper/*.js'],
 
-  synchronize: false,
+  synchronize: true,
 
   logging: true,
   logger: 'file',

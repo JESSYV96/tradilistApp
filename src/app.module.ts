@@ -9,7 +9,6 @@ import { setEnvironment } from 'infrastructure/environments';
 import { UsersModule } from 'infrastructure/ioc/users.module';
 import { PostsModule } from 'infrastructure/ioc/posts.module';
 import { HealthController } from 'infrastructure/terminus/index';
-
 @Module({
   imports: [
     UsersModule,
@@ -33,4 +32,4 @@ import { HealthController } from 'infrastructure/terminus/index';
     },
   ],
 })
-export class AppModule {}
+export class AppModule { }
