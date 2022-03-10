@@ -27,4 +27,7 @@ module.exports = {
   cli: {
     migrationsDir: 'src/infrastructure/database/migrations',
   },
+  ssl: {
+    rejectUnauthorized: false
+  }
 };
