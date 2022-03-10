@@ -1,0 +1,1 @@
+api: yarn && yarn start:prod
