@@ -28,6 +28,6 @@ module.exports = {
     migrationsDir: 'src/infrastructure/database/migrations',
   },
   ssl: {
-    rejectUnauthorized: false
+    rejectUnauthorized: environment === 'production' ? false : true
   }
 };
