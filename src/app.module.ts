@@ -8,11 +8,13 @@ import { CacheService } from 'infrastructure/cache';
 import { setEnvironment } from 'infrastructure/environments';
 import { UsersModule } from 'infrastructure/ioc/users.module';
 import { PostsModule } from 'infrastructure/ioc/posts.module';
+import { TranslationsModule } from 'infrastructure/ioc/translations.module';
 import { HealthController } from 'infrastructure/terminus/index';
 @Module({
   imports: [
     UsersModule,
     PostsModule,
+    TranslationsModule,
     ConfigModule.forRoot({
       isGlobal: true,
       expandVariables: true,
