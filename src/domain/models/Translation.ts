@@ -1,7 +1,7 @@
 import { User } from "domain/models/User";
 import { IEntity } from "domain/shared/IEntity";
 import { Column, ManyToOne, PrimaryGeneratedColumn, Entity } from "typeorm";
-import { Language } from "../valueObject/Language";
+// import { Language } from "../valueObject/Language";
 
 export class Translation implements IEntity {
     @PrimaryGeneratedColumn()
